@@ -1,3 +1,3 @@
-curl https://raw.githubusercontent.com/verzola/aliases/master/aliases.conf > ~/aliases.conf
-echo source ~/aliases.conf >> ~/.bashrc
+git clone https://github.com/verzola/aliases.git ~/aliases
+echo source ~/aliases/aliases.conf >> ~/.bashrc
 source ~/.bashrc
