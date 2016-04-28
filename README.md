@@ -1,6 +1,7 @@
-# aliases
+# Aliases
 aliases para facilitar a vida no terminal
 
+## Instalação
 ```sh
-$ curl https://raw.githubusercontent.com/verzola/aliases/master/aliases.conf > ~/aliases.conf && echo source ~/aliases.conf >> ~/.bashrc && source ~/aliases.conf
+$ curl https://raw.githubusercontent.com/verzola/aliases/master/install.sh | sh
 ```
