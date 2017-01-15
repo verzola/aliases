@@ -1,5 +1,5 @@
 # aliases
-aliases for lazy developers
+lazy man aliases for bash
 
 ## auto install
 ```sh
