@@ -1,7 +1,7 @@
 # aliases
 lazy man aliases for bash
 
-## auto install
+## install
 ```sh
 $ curl https://raw.githubusercontent.com/verzola/aliases/master/install.sh | bash
 ```
