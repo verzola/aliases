@@ -1,7 +1,7 @@
-# Aliases
-aliases para facilitar a vida no terminal
+# aliases
+lazy man aliases for bash
 
-## Instalação
+## install
 ```sh
 $ curl https://raw.githubusercontent.com/verzola/aliases/master/install.sh | bash
 ```
