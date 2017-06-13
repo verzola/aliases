@@ -1,3 +1,4 @@
-git clone https://github.com/verzola/aliases.git ~/aliases
-echo source ~/aliases/aliases.conf >> ~/.zshrc
-source ~/.zshrc
+if [ ! -d "~/projects" ]; then
+  mkdir ~/projects
+fi
+git clone https://github.com/verzola/aliases.git ~/projects/aliases
