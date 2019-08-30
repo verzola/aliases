@@ -1,3 +1,6 @@
+#!/bin/sh
+set -e
+
 mkdir -p ~/projects/verzola
 
 if [ ! -d ~/projects/verzola/aliases ]; then
