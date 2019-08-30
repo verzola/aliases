@@ -1,10 +1,7 @@
-if [ ! -d ~/projects ]; then
-  mkdir ~/projects
-fi
+mkdir -p ~/projects/verzola
 
-if [ ! -d ~/projects/aliases ]; then
-    git clone https://github.com/verzola/aliases.git ~/projects/aliases
+if [ ! -d ~/projects/verzola/aliases ]; then
+    git clone https://github.com/verzola/aliases.git ~/projects/verzola/aliases
 else
-    cd ~/projects/aliases
-    git pull origin master
+    git -C ~/projects/aliases pull origin master
 fi
